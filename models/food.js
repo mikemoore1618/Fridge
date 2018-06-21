@@ -7,6 +7,6 @@ const FoodSchema = mongoose.Schema({
 });
 
 //INITIALIZE THE MODEL
-const Food = mongoose.model('Food', Foodschema);
+const Food = mongoose.model('Food', FoodSchema);
 
 module.exports = Food;
