@@ -4,6 +4,7 @@ app = express(),
 logger = require('morgan'),
 mongoose = require(mongoose),
 PORT = 3000,
+foodRouter = require('.routers/foodRouter')
 
 
 // connect to db
